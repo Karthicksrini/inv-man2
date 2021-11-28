@@ -1,0 +1,161 @@
+body{
+  
+}
+
+ul{
+    list-style-type: none;
+    list-style: none;
+    padding:0 10px;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+li{
+   
+    margin:10px 0px;
+}
+
+.menu{
+    float:left;
+    width: 18%;
+    height: auto;
+    color:white;
+    background-color: rgb(35, 35, 46);
+}
+.mainTitle{
+    position: relative;
+    left:50%;
+}
+
+.iconName{
+    padding-left:7px;
+    margin-bottom:20px;
+}
+.product{
+    width:18rem;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 200px 100px;
+    color:white;
+    background-color:rgb(3, 178, 247);
+}
+
+.pro_icon{
+    position: relative;
+    right:55px;
+    width:100px;
+    opacity:0.5;
+}
+
+
+.moreinfo{
+    width:18rem;
+    margin-left:-20px;
+    margin-top:10px;
+    text-align: center;
+    color:white;
+    background-color: rgb(3, 136, 189);
+}
+
+.info{
+   position: relative;
+   bottom:6px;
+}
+
+.pro_container{
+    width:17rem;
+    display: flex;
+    padding: 10px;
+}
+
+.dash1{
+    margin-left: 300px;
+
+}
+
+.dash_title{
+    font-size: 17px;
+    color:slategray
+}
+
+.brand1{
+    margin:30px 20px;
+    position: relative;
+    left:10rem;
+    
+}
+
+.body{
+    background-color: rgb(163, 178, 192);
+}
+
+.addbrand{
+    color:white;
+    background-color: rgb(53, 194, 250)
+}
+.product{
+    padding-top:20px;
+}
+
+.header{
+    height:55px;
+    background-color: rgb(61, 156, 194);
+}
+
+.sideheader{
+    text-align:center;
+    padding-top:5px;
+    font-size:27px;
+    margin:0;
+    height:50px;
+    background-color: rgb(49, 116, 143);
+
+}
+
+#brand{
+    margin:20px;
+    width:20rem;
+   
+}
+
+.showdiv{
+    width:300px;
+    border:2px solid balck;
+    background-color: whitesmoke;
+    padding: 15px;
+    margin:20px;
+    color:rgb(66, 23, 8);
+    border-radius: 5%;
+    display: grid;
+}
+.hidediv{
+    display: none;
+}
+
+.cancelicon{
+    padding:-10px;
+    position: relative;
+    left:15rem;
+    bottom:20px;
+}
+
+.menu{
+    height:44rem;
+    margin-left:-100px;
+}
+
+.dash_contain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+
+}
+
+
+#profile{
+    width:300px;
+
+}
+.errmsg{
+    color:red;
+}

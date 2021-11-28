@@ -1,0 +1,53 @@
+body{
+  background-image: linear-gradient(#4ca1af,#c4e0e5);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.signup{
+    color:rgb(9, 86, 114);
+    width:600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -300px;
+}
+
+.signuphead{
+    font-size: 3rem;
+    color:rgb(69, 69, 248);
+    margin-left:25%;
+    margin-bottom:8%;
+
+}
+
+#submitsign{
+    width:20%;
+    margin-left:40%;
+}
+
+#loginsign{
+    width:20%;
+    margin-left:40%;
+}
+
+.login{
+    color:rgb(9, 86, 114);
+    width:600px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -300px;
+
+}
+
+.loginhead{
+    font-size: 3rem;
+    color:rgb(69, 69, 248);
+    margin-left:32%;
+    margin-bottom:8%;
+
+
+}
