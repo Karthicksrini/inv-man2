@@ -85,7 +85,7 @@ function Signup(){
           <div className="input-group-text"><Lock/></div>
         </div>
             <input  placeholder="Create your password" className="form-control" 
-            onChange={handleChange} type="text" name="password" value={editing.password} /><br/>
+            onChange={handleChange} type="password" name="password" value={editing.password} /><br/>
             </div>
             </div>
             <div className="col-auto">
@@ -94,7 +94,7 @@ function Signup(){
           <div className="input-group-text"><Lock1/></div>
         </div>
             <input placeholder="Confirm your password" className="form-control"
-             onChange={handleChange}type="text" name="conpass" value={editing.conpass}></input><br/>
+             onChange={handleChange}type="password" name="conpass" value={editing.conpass}></input><br/>
             </div>
             </div>
             <Link  to="/">Already Signed in, Click here</Link>
